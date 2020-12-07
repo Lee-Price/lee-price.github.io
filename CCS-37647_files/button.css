@@ -1,0 +1,89 @@
+.ps-widget[ps-sku], .ps-widget[data-ps-sku] {
+  float: left;
+  display: block;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #ee405a;
+  border-color: #ee405a;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 30px;
+  min-width: 200px;
+  font-family: 'Gotham', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 0px;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  text-transform: uppercase; }
+
+.ps-widget[ps-sku] > small, .ps-widget[data-ps-sku] > small {
+  display: none; }
+
+.ps-widget[ps-sku].ps-disabled, .ps-widget[data-ps-sku].ps-disabled {
+  background-color: #fff;
+  border-color: #323333;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 30px;
+  cursor: default;
+  text-transform: uppercase; }
+
+.ps-widget[ps-sku].ps-disabled > span, .ps-widget[data-ps-sku].ps-disabled > span {
+  display: none; }
+
+.ps-widget[ps-sku].ps-disabled > small, .ps-widget[data-ps-sku].ps-disabled > small {
+  font-family: 'Gotham', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 0px;
+  font-weight: 500;
+  color: #323333;
+  display: block; }
+
+@media screen and (min-width: 1025px) {
+  .ps-widget[ps-sku]:hover, .ps-widget[data-ps-sku]:hover {
+    background-color: #fff;
+    border-color: #ee405a;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 30px;
+    font-family: 'Gotham', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 0px;
+    font-weight: 500;
+    color: #ee405a;
+    cursor: pointer; }
+  .ps-widget[ps-sku].ps-disabled:hover, .ps-widget[data-ps-sku].ps-disabled:hover {
+    background-color: #fff;
+    border-color: #323333;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 30px;
+    cursor: default; }
+  .ps-widget[ps-sku].ps-disabled:hover > small, .ps-widget[data-ps-sku].ps-disabled:hover > small {
+    font-family: 'Gotham', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 0px;
+    font-weight: 500;
+    color: #323333; } }
+
+@media screen and (max-width: 1024px) {
+  .ps-widget[ps-sku], .ps-widget[data-ps-sku] {
+    min-width: 200px;
+    background-color: #ee405a;
+    padding: 20px; } }
+
+@media screen and (max-width: 767px) {
+  .ps-widget[ps-sku], .ps-widget[data-ps-sku] {
+    min-width: 200px;
+    background-color: #ee405a;
+    padding: 20px; } }
+
+.ps-widget[ps-sku]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
